@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Vacation</title>
+</head>
+<body>
+    <form  method="get" action="https://www.fabiovitali.it/TW/DHDK/doResponse.php">
+        <h2>Book a vacation</h2>
+        <p>
+            <label>
+                Choose Island    
+                <select name="island">
+                    <option value="aitutaki, cook islands">Aitutaki, Cook Islands</option>
+                    <option value="maldives">Maldives</option>
+                    <option value="saba">Saba</option>
+                    <option value="koh rong, cambodia">Kho Rong, Cambodia</option>
+                    <option value="koh lipe, thailand">Kho Lipe, Thailand</option>
+                    <option value="fernando de noronha, brazil">Fernando de Noronha, Brazil</option>
+                    <option value="bohey dulang, malaysia">Bohey BUlang, Malaysia</option>
+                    <option value="moorea, french polynesia">Moorea, French Polynesia</option>
+                    <option value="havelock island, india">Havelock Island, India</option>
+                    <option value="carriacou, grenada">Carriacou, Grenada</option>
+                </select>
+            </label>
+        </p>
+        <p>
+            <label>Arriving<input type="date" name="date of arrival" size="15"></label>
+            <label>Departing<input type="date" name="date of departure" size="15"></label>
+        </p>
+        <p>
+            <label>Name <input type="text" name="name" value="Name" size="15"></label>
+            <label>Surname <input type="text" name="surname" value="Surname" size="15"></label>
+        </p>
+        <p>
+            <label>Address <input type="text" name="adress" value="1234 Main St" size="15"></label> 
+        </p>
+        <p>
+            <label>City <input type="text" name="city" size="15"></label>
+            <label>
+                State
+                <select name="state">
+                    <option value="afghanistan">Afghanistan</option>
+                    <option value="aland islands">Aland Islands</option>
+                    <option value="albania">Albania</option>
+                    <option value="algeria">Algeria</option>
+                    <option value="american samoa">American Samoa</option>
+                    <option value="andorra">Andorra</option>
+                </select>
+            </label>
+            <label>Zip <input type="text" name="zip" size="15"></label> 
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember user" value="yes"> Remember me</label>
+        </p>
+        <p>
+            <label><input type="submit" name="submit" value="Book your vacation"></label>
+            <label><input type="submit" name="ok" value="Ok"></label>
+        </p>
+    </form>
+</body>
+</html>
